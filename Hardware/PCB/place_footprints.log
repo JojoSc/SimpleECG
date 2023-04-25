@@ -1,0 +1,20 @@
+03-22 18:45:05 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 405:Plugin executed on: 'darwin'
+03-22 18:45:05 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 406:Plugin executed with python version: '3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]'
+03-22 18:45:05 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 407:KiCad build version: (7.0.0-0)
+03-22 18:45:05 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 408:Plugin version: 2.0.0
+03-22 18:45:05 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 409:Frame repr: <wx._core.Frame object at 0x11a781550>
+03-22 18:45:05 com_github_MitjaNemec_PlaceFootprints.place_footprints 121:getting a list of all footprints on board
+03-22 18:45:05 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C46 on root level
+03-22 18:45:05 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J3 on root level
+03-22 18:45:05 com_github_MitjaNemec_PlaceFootprints.place_footprints 140:Footprint REF** does not have Sheetfile property, it will not be considered for placement. Most likely it is only in layout
+03-22 18:45:05 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint TP4 on root level
+03-22 18:45:05 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint TP7 on root level
+03-22 18:45:05 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint TP3 on root level
+03-22 18:45:05 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint TP10 on root level
+03-22 18:45:05 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint TP5 on root level
+03-22 18:45:05 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint TP2 on root level
+03-22 18:45:05 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint TP11 on root level
+03-22 18:45:05 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint TP1 on root level
+03-22 18:45:05 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint TP6 on root level
+03-22 18:45:09 com_github_MitjaNemec_PlaceFootprints.place_footprints 228:constructing a list of sheets suitable for replication on level:'FilterV6', file:'Electrode_Filtering.kicad_sch'
+03-22 18:45:09 com_github_MitjaNemec_PlaceFootprints.place_footprints 263:suitable sheets are:[['AFE', 'FilterLA'], ['AFE', 'FilterLL'], ['AFE', 'FilterRA'], ['AFE', 'FilterV1'], ['AFE', 'FilterV2'], ['AFE', 'FilterV3'], ['AFE', 'FilterV4'], ['AFE', 'FilterV5']]

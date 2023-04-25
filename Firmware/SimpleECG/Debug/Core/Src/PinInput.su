@@ -1,0 +1,5 @@
+PinInput.cpp:10:1:PinInput::PinInput(GPIO_TypeDef*, uint16_t)	40	static
+PinInput.cpp:23:6:bool PinInput::high()	16	static
+PinInput.cpp:27:6:bool PinInput::low()	16	static
+PinInput.cpp:31:1:PinInput::~PinInput()	16	static
+PinInput.cpp:31:1:virtual PinInput::~PinInput()	16	static

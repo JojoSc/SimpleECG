@@ -1,0 +1,157 @@
+03-22 18:45:22 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 359:Plugin executed on: 'darwin'
+03-22 18:45:22 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 360:Plugin executed with python version: '3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]'
+03-22 18:45:22 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 361:KiCad build version: (7.0.0-0)
+03-22 18:45:22 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 362:Plugin version: 2.0.7
+03-22 18:45:22 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 363:Frame repr: <wx._core.Frame object at 0x11a781550>
+03-22 18:45:22 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 387:Preparing replicator with R23 as a reference
+03-22 18:45:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 113:getting a list of all footprints on board
+03-22 18:45:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 132:Footprint REF** does not have Sheetfile property, it will not be replicated. Most likely it is only in schematics
+03-22 18:45:22 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 435:source anchor footprint is 'R23'
+Located on: ['AFE', 'FilterV6']
+With filenames: ['AFE.kicad_sch', 'Electrode_Filtering.kicad_sch']
+With sheet_id:['AFE', 'FilterV6']
+03-22 18:45:22 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 442:Corresponding footprints are 
+[('R20', ['AFE', 'FilterV5']), ('R14', ['AFE', 'FilterV4']), ('R11', ['AFE', 'FilterV3']), ('R8', ['AFE', 'FilterV2']), ('R17', ['AFE', 'FilterV1']), ('R29', ['AFE', 'FilterLA']), ('R32', ['AFE', 'FilterRA']), ('R26', ['AFE', 'FilterLL']), ('R23', ['AFE', 'FilterV6'])]
+03-22 18:45:22 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 454:Showing dialog
+03-22 18:45:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 384:constructing a list of sheets suitable for replication on level:'FilterV6', file:'Electrode_Filtering.kicad_sch'
+03-22 18:45:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 421:suitable sheets are:[['AFE', 'FilterLA'], ['AFE', 'FilterLL'], ['AFE', 'FilterRA'], ['AFE', 'FilterV1'], ['AFE', 'FilterV2'], ['AFE', 'FilterV3'], ['AFE', 'FilterV4'], ['AFE', 'FilterV5']]
+03-22 18:45:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1332:Level selected: ['AFE', 'FilterV6']
+03-22 18:45:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1167:Filtering list of tracks
+03-22 18:45:22 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 460:Toolbar position: wx.Point(1643, 121)
+03-22 18:45:22 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 465:Dialog position: wx.Point(1279, 121)
+03-22 18:45:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 384:constructing a list of sheets suitable for replication on level:'FilterV6', file:'Electrode_Filtering.kicad_sch'
+03-22 18:45:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 421:suitable sheets are:[['AFE', 'FilterLA'], ['AFE', 'FilterLL'], ['AFE', 'FilterRA'], ['AFE', 'FilterV1'], ['AFE', 'FilterV2'], ['AFE', 'FilterV3'], ['AFE', 'FilterV4'], ['AFE', 'FilterV5']]
+03-22 18:45:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1332:Level selected: ['AFE', 'FilterV6']
+03-22 18:45:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1167:Filtering list of tracks
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 384:constructing a list of sheets suitable for replication on level:'FilterV6', file:'Electrode_Filtering.kicad_sch'
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 421:suitable sheets are:[['AFE', 'FilterLA'], ['AFE', 'FilterLL'], ['AFE', 'FilterRA'], ['AFE', 'FilterV1'], ['AFE', 'FilterV2'], ['AFE', 'FilterV3'], ['AFE', 'FilterV4'], ['AFE', 'FilterV5']]
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 207:Replicating layout
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 230:Starting replication of sheets: [['AFE', 'FilterLA'], ['AFE', 'FilterLL'], ['AFE', 'FilterRA'], ['AFE', 'FilterV1'], ['AFE', 'FilterV2'], ['AFE', 'FilterV3'], ['AFE', 'FilterV4'], ['AFE', 'FilterV5']]
+on level: ['AFE', 'FilterV6']
+with tracks=True, zone=True, text=True, text=True, intersecting=True, remove=False, locked footprints=False, group_only=False
+03-22 18:46:01 root 299:updating GUI message: 'Preparing for replication'
+03-22 18:46:01 root 304:updating GUI with: 0
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 300:Getting the list of source footprints
+03-22 18:46:01 root 304:updating GUI with: 0
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of all the remaining footprints
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 317:Getting source tracks
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1167:Filtering list of tracks
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 321:Getting source zones
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 325:Getting source text items
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 329:Getting source drawing items
+03-22 18:46:01 root 299:updating GUI message: 'Replicating footprints'
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 724:Replicating footprints
+03-22 18:46:01 root 304:updating GUI with: 0
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['AFE', 'FilterLA']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['AFE', 'FilterLL']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['AFE', 'FilterRA']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['AFE', 'FilterV1']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['AFE', 'FilterV2']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['AFE', 'FilterV3']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['AFE', 'FilterV4']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['AFE', 'FilterV5']
+03-22 18:46:01 root 299:updating GUI message: 'Replicating tracks'
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 889:Replicating tracks
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['AFE', 'FilterLA']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['AFE', 'FilterLA'] :[('+3.3VADC', '+3.3VADC'), ('Net-(D13-A)', 'Net-(D17-A)'), ('GND', 'GND'), ('RL', 'RL')]
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['AFE', 'FilterLL']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['AFE', 'FilterLL'] :[('+3.3VADC', '+3.3VADC'), ('GND', 'GND'), ('Net-(D13-A)', 'Net-(D15-A)'), ('RL', 'RL')]
+03-22 18:46:01 root 304:updating GUI with: 12
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['AFE', 'FilterRA']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['AFE', 'FilterRA'] :[('+3.3VADC', '+3.3VADC'), ('GND', 'GND'), ('Net-(D13-A)', 'Net-(D19-A)'), ('RL', 'RL')]
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['AFE', 'FilterV1']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['AFE', 'FilterV1'] :[('+3.3VADC', '+3.3VADC'), ('GND', 'GND'), ('RL', 'RL'), ('Net-(D13-A)', 'Net-(D10-K)')]
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['AFE', 'FilterV2']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['AFE', 'FilterV2'] :[('+3.3VADC', '+3.3VADC'), ('GND', 'GND'), ('Net-(D13-A)', 'Net-(D3-A)'), ('RL', 'RL')]
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['AFE', 'FilterV3']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['AFE', 'FilterV3'] :[('+3.3VADC', '+3.3VADC'), ('GND', 'GND'), ('Net-(D13-A)', 'Net-(D5-A)'), ('RL', 'RL')]
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['AFE', 'FilterV4']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['AFE', 'FilterV4'] :[('+3.3VADC', '+3.3VADC'), ('GND', 'GND'), ('Net-(D13-A)', 'Net-(D7-A)'), ('RL', 'RL')]
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['AFE', 'FilterV5']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['AFE', 'FilterV5'] :[('+3.3VADC', '+3.3VADC'), ('GND', 'GND'), ('Net-(D13-A)', 'Net-(D11-A)'), ('RL', 'RL')]
+03-22 18:46:01 root 299:updating GUI message: 'Replicating zones'
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 947:Replicating zones
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['AFE', 'FilterLA']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['AFE', 'FilterLA'] :[('+3.3VADC', '+3.3VADC'), ('Net-(D13-A)', 'Net-(D17-A)'), ('GND', 'GND'), ('RL', 'RL')]
+03-22 18:46:01 root 304:updating GUI with: 12
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['AFE', 'FilterLL']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['AFE', 'FilterLL'] :[('+3.3VADC', '+3.3VADC'), ('GND', 'GND'), ('Net-(D13-A)', 'Net-(D15-A)'), ('RL', 'RL')]
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['AFE', 'FilterRA']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['AFE', 'FilterRA'] :[('+3.3VADC', '+3.3VADC'), ('GND', 'GND'), ('Net-(D13-A)', 'Net-(D19-A)'), ('RL', 'RL')]
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['AFE', 'FilterV1']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['AFE', 'FilterV1'] :[('+3.3VADC', '+3.3VADC'), ('GND', 'GND'), ('RL', 'RL'), ('Net-(D13-A)', 'Net-(D10-K)')]
+03-22 18:46:01 root 304:updating GUI with: 50
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['AFE', 'FilterV2']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['AFE', 'FilterV2'] :[('+3.3VADC', '+3.3VADC'), ('GND', 'GND'), ('Net-(D13-A)', 'Net-(D3-A)'), ('RL', 'RL')]
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['AFE', 'FilterV3']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['AFE', 'FilterV3'] :[('+3.3VADC', '+3.3VADC'), ('GND', 'GND'), ('Net-(D13-A)', 'Net-(D5-A)'), ('RL', 'RL')]
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['AFE', 'FilterV4']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['AFE', 'FilterV4'] :[('+3.3VADC', '+3.3VADC'), ('GND', 'GND'), ('Net-(D13-A)', 'Net-(D7-A)'), ('RL', 'RL')]
+03-22 18:46:01 root 304:updating GUI with: 87
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['AFE', 'FilterV5']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['AFE', 'FilterV5'] :[('+3.3VADC', '+3.3VADC'), ('GND', 'GND'), ('Net-(D13-A)', 'Net-(D11-A)'), ('RL', 'RL')]
+03-22 18:46:01 root 299:updating GUI message: 'Replicating text'
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1025:Replicating text
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['AFE', 'FilterLA']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['AFE', 'FilterLL']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['AFE', 'FilterRA']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['AFE', 'FilterV1']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['AFE', 'FilterV2']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['AFE', 'FilterV3']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['AFE', 'FilterV4']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['AFE', 'FilterV5']
+03-22 18:46:01 root 299:updating GUI message: 'Replicating drawings'
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1065:Replicating drawings
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['AFE', 'FilterLA']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['AFE', 'FilterLL']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['AFE', 'FilterRA']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['AFE', 'FilterV1']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['AFE', 'FilterV2']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['AFE', 'FilterV3']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['AFE', 'FilterV4']
+03-22 18:46:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['AFE', 'FilterV5']
+03-22 18:46:02 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 223:Replication complete
+03-22 18:46:02 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 226:Letting the user know there are some issues with replicated design
+03-22 18:46:02 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 230:Looks like the design has an exotic connectivity that is not supported by the plugin
+ Make sure that you check the connectivity around:
+Footprint R27, pad 2
+Footprint R40, pad 2
+Footprint C16, pad 2
+Footprint R9, pad 2
+Footprint R26, pad 1
+Footprint C24, pad 2
+Footprint R33, pad 2
+Footprint R20, pad 1
+Footprint R42, pad 2
+Footprint R34, pad 1
+Footprint R22, pad 1
+Footprint R8, pad 1
+Footprint C14, pad 2
+Footprint R41, pad 2
+Footprint R21, pad 2
+Footprint C12, pad 2
+Footprint R45, pad 2
+Footprint R18, pad 2
+Footprint R11, pad 1
+Footprint R14, pad 1
+Footprint R16, pad 1
+Footprint C20, pad 2
+Footprint R10, pad 1
+Footprint R13, pad 1
+Footprint R29, pad 1
+Footprint R47, pad 2
+Footprint C18, pad 2
+Footprint R46, pad 2
+Footprint C28, pad 2
+Footprint R30, pad 2
+Footprint R43, pad 2
+Footprint C26, pad 2
+Footprint R28, pad 1
+Footprint R31, pad 1
+Footprint R17, pad 1
+Footprint R39, pad 2
+Footprint R19, pad 1
+Footprint R15, pad 2
+Footprint R32, pad 1
+Footprint R12, pad 2
+
