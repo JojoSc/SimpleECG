@@ -114,12 +114,14 @@ int main(void)
 //	  uint8_t id = ads1298.readRegister(REG_ADDR_ID);
 
 	  if (HAL_GPIO_ReadPin(nDRDY_GPIO_Port, nDRDY_Pin) == GPIO_PIN_RESET) {
-		  int32_t channels[8];
+		  int32_t channels[10];
+		  channels[8] = 0; // TODO: milliseconds since startup
+		  channels[9] = 0xFFFFFFFF; // separator
 		  HAL_StatusTypeDef status = ads1298.getChannelData(channels);
 
 		  if (status == HAL_OK) {
-			  const char *buffer = (std::to_string(channels[0]) + "," + std::to_string(channels[1]) + "," + std::to_string(channels[2]) + "," + std::to_string(channels[3]) + "\r\n").c_str();
-			  CDC_Transmit_FS((uint8_t*)buffer, strlen(buffer));
+			  //const char *buffer = (std::to_string(channels[0]) + "," + std::to_string(channels[1]) + "," + std::to_string(channels[2]) + "," + std::to_string(channels[3]) + "," + std::to_string(channels[4]) + "," + std::to_string(channels[5]) + "," + std::to_string(channels[6]) + "," + std::to_string(channels[7])  + "\r\n").c_str();
+			  CDC_Transmit_FS((uint8_t*)channels, 40);
 		  } else {
 			  const char *buffer = ("HAL status: " + std::to_string(status) + "\r\n").c_str();
 			  CDC_Transmit_FS((uint8_t*)buffer, strlen(buffer));

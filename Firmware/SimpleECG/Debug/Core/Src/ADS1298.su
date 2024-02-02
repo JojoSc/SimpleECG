@@ -10,11 +10,11 @@ ADS1298.cpp:65:6:void ADS1298::sendCommand(uint8_t)	24	static
 ADS1298.cpp:77:6:void ADS1298::useInternalReference()	16	static
 ADS1298.cpp:81:6:void ADS1298::useTestSignal(uint8_t)	16	static
 ADS1298.cpp:86:6:void ADS1298::useRegularSignal(uint8_t)	16	static
-ADS1298.cpp:93:6:void ADS1298::setup()	16	static
-ADS1298.cpp:114:6:void ADS1298::writeRegister(uint8_t, uint8_t)	24	static
-ADS1298.cpp:138:9:uint8_t ADS1298::readRegister(uint8_t)	32	static
-ADS1298.cpp:160:9:int32_t getBit(int32_t, uint32_t)	16	static
-ADS1298.cpp:164:19:HAL_StatusTypeDef ADS1298::getChannelData(int32_t*)	88	static
-ADS1298.cpp:188:1:void __static_initialization_and_destruction_0(int, int)	16	static
-ADS1298.cpp:188:1:cpp)	8	static
-ADS1298.cpp:188:1:cpp)	8	static
+ADS1298.cpp:92:6:void ADS1298::setup()	24	static
+ADS1298.cpp:115:6:void ADS1298::writeRegister(uint8_t, uint8_t)	24	static
+ADS1298.cpp:139:9:uint8_t ADS1298::readRegister(uint8_t)	32	static
+ADS1298.cpp:161:9:int32_t getBit(int32_t, uint32_t)	16	static
+ADS1298.cpp:165:19:HAL_StatusTypeDef ADS1298::getChannelData(int32_t*)	88	static
+ADS1298.cpp:189:1:void __static_initialization_and_destruction_0(int, int)	16	static
+ADS1298.cpp:189:1:cpp)	8	static
+ADS1298.cpp:189:1:cpp)	8	static

@@ -75,7 +75,7 @@ void ADS1298::sendCommand(uint8_t cmd) {
 }
 
 void ADS1298::useInternalReference() {
-    ADS1298::writeRegister(REG_ADDR_CONFIG3, 0xC0);
+	writeRegister(REG_ADDR_CONFIG3, 0b1100'1100);
 }
 
 void ADS1298::useTestSignal(uint8_t channelNo) {
@@ -86,8 +86,7 @@ void ADS1298::useTestSignal(uint8_t channelNo) {
 void ADS1298::useRegularSignal(uint8_t channelNo) {
     writeRegister(REG_ADDR_CONFIG2, 0x02);
     writeRegister(REG_ADDR_CH1SET + channelNo - 1, 0x00);
-    writeRegister(REG_ADDR_CONFIG3, 0b1100'1100);
-    writeRegister(REG_ADDR_RLD_SENSP, 0b0000'0011);
+    writeRegister(REG_ADDR_RLD_SENSP, 0b1111'1111);
 }
 
 void ADS1298::setup()
@@ -99,13 +98,15 @@ void ADS1298::setup()
     SDATAC();
 
     useInternalReference();
-    writeRegister(REG_ADDR_CONFIG1, 0x85); // high resolution, 1kSPS
-    //useTestSignal(1);
-    useRegularSignal(1);
-    useRegularSignal(2);
-    useRegularSignal(3);
-    useRegularSignal(4);
+    writeRegister(REG_ADDR_CONFIG1, 0b1000'0101); // high resolution, 1kSPS
 
+    writeRegister(REG_ADDR_WCT1, 0b00001000); // Wilson center terminal configuration (Ch1+ to WCTA amp)
+    writeRegister(REG_ADDR_WCT2, 0b11001011); // Ch1- to WCTB and Ch2- to WCTC; these inputs correspond to RA, LA, and LL electrodes
+
+    for (int i = 1; i <= 8; i++) {
+    	useRegularSignal(i);
+    	//useTestSignal(i);
+    }
 
     START.high();
     RDATAC();
@@ -178,9 +179,9 @@ HAL_StatusTypeDef ADS1298::getChannelData(int32_t *channels) {
     for (int i = 0; i < 8; i++) {
     	channels[i] = 0 | (rx_data[3 + 3*i] << 16) | (rx_data[4 + 3*i] << 8) | rx_data[5 + 3*i];
 
-        if (getBit(channels[i], 23) == 1) {
-        	channels[i] = channels[i] | 0xFF000000;
-        }
+        //if (getBit(channels[i], 23) == 1) {
+        //	channels[i] = channels[i] | 0xFF000000;
+        //}
     }
 
     //nCS.high();

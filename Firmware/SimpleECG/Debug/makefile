@@ -79,8 +79,8 @@ all: main-build
 main-build: SimpleECG.elf secondary-outputs
 
 # Tool invocations
-SimpleECG.elf: $(OBJS) $(USER_OBJS) /Users/jojo/Documents/STM32CubeIDE/SimpleECG/STM32F103CBTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-g++ -o "SimpleECG.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"/Users/jojo/Documents/STM32CubeIDE/SimpleECG/STM32F103CBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SimpleECG.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+SimpleECG.elf: $(OBJS) $(USER_OBJS) /Users/jojo/Documents/KiCad/SimpleECG_v0/Firmware/SimpleECG/STM32F103CBTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-g++ -o "SimpleECG.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"/Users/jojo/Documents/KiCad/SimpleECG_v0/Firmware/SimpleECG/STM32F103CBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SimpleECG.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
